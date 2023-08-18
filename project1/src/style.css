@@ -1,0 +1,117 @@
+.nav-bar{
+    background-color: rgb(25, 28, 30);
+    font-weight: bold;
+    font-size: 22px;
+}
+.nav-txt{
+    color: white;
+    padding-left: 30px;
+    font-family: serif;
+}
+.nav-txt:hover{
+    color: dodgerblue;
+}
+.nav-nav{
+    margin-left: 29%;
+}
+.nav-logo{
+    height: 60px;
+    margin-right: 20px;
+}
+.nav-brand{
+    color: white;
+    font-family: serif;
+    font-size: 35px;
+}
+.nav-brand:hover{
+    color: white;
+}
+
+.card-main{
+    display: inline-flex;
+    margin-left: 13px;
+    margin-top: 20px;
+    height: 460px;
+    text-align: center;
+}
+.card-main-img{
+    padding: 5px;
+    height: 380px;
+    border-radius: 10px 10px 10px 10px;  
+
+    &:hover {
+        transform: translate(-5px,-5px); 
+        border-radius: 10px 10px 10px 10px;      
+    }
+}
+.card-main-text{
+    margin-bottom: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.link2{
+    text-decoration: none;
+    color: black;
+
+    &:hover{
+        color: black;
+    }
+}
+.card {
+    font-weight: bold;
+    position: relative;
+    width: 100%;
+    
+    }
+
+.Button{
+         margin-bottom: 40px;
+}
+
+.imgdet{
+    height: 30%;
+    width: 50%;
+}
+.searchbar{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px 10px 10px 10px;
+}
+.searchbar-h{
+    height: 39px;
+    margin-bottom: 5px;
+}
+.sp{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.load{
+    color: white;
+    font-family: serif;
+    text-align: center;
+    margin-top: 15%;
+    font-size: 45px;
+}
+
+.banner{
+    border: 0px solid ;
+    height: 600px;
+    width: 100%;
+    align-items: center;
+}
+.banner-main{
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.banner-sub{
+    border: 0px solid black;
+    width: 500px;
+    padding-left: 10px;
+    padding-top: 320px;
+    color: aliceblue;
+    text-shadow: 3px 3px 4px black;
+} 
